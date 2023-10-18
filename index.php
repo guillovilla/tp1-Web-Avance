@@ -12,7 +12,7 @@
     <header>
         <h1> Bibliothèque Municipale</h1>
     </header>
-<nav>
+    <nav>
         <ul role="menubar">
             <li role="menuitem" aria-label="Menu accueil" aria-haspopup="false"><a href="index.php">Accueil</a></li>
             <li role="menuitem" aria-label="Menu usager" aria-haspopup="false"><a href="client-index.php">Usagers</a></li>

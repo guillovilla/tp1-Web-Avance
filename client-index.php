@@ -3,7 +3,6 @@ require_once('class/CRUD.php');
 $crud = new CRUD;
 $usager = $crud->select('usager', 'nom');
 
-
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +19,7 @@ $usager = $crud->select('usager', 'nom');
     <header>
         <h1> Bibliothèque Municipale</h1>
     </header>
-<nav>
+    <nav>
         <ul role="menubar">
             <li role="menuitem" aria-label="Menu accueil" aria-haspopup="false"><a href="index.php">Accueil</a></li>
             <li role="menuitem" aria-label="Menu usager" aria-haspopup="false"><a href="client-index.php">Usagers</a></li>
@@ -28,8 +27,6 @@ $usager = $crud->select('usager', 'nom');
         </ul>
     </nav>
     <main>
-
-        <h1>Client</h1>
         <table>
             <tr>
                 <th>Nom</th>
